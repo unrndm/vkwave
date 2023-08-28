@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Optional, Any, List
 
-import pydantic
+import pydantic.v1 as pydantic
 
 from vkwave.api.methods import APIOptionsRequestContext
 from vkwave.types.user_events import PlatformEnum

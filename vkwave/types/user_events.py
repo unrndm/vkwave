@@ -2,7 +2,7 @@ import enum
 import typing
 
 import logging
-import pydantic
+import pydantic.v1 as pydantic
 
 from .objects import MessagesKeyboard
 

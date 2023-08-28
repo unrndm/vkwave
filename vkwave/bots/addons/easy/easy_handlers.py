@@ -3,7 +3,7 @@ import random
 import warnings
 from typing import Any, Callable, Dict, List, Union, Type, Optional, NoReturn
 
-from pydantic import PrivateAttr
+from pydantic.v1 import PrivateAttr
 
 from vkwave.bots import BotEvent, BotType, EventTypeFilter, UserEvent
 from vkwave.bots.core import BaseFilter

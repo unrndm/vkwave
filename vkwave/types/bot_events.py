@@ -1,7 +1,7 @@
 import typing
 from enum import Enum
 
-import pydantic
+import pydantic.v1 as pydantic
 
 from .objects import (
     AudioAudio,

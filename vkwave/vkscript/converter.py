@@ -2,7 +2,7 @@ import typing
 import contextvars
 from typing import Type, TypeVar
 
-import pydantic
+import pydantic.v1 as pydantic
 
 
 T = TypeVar("T")
