@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Optional, Any, List
+from typing import Any, List, Optional
 
 import pydantic.v1 as pydantic
 
